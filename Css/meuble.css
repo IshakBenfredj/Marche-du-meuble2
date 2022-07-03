@@ -158,11 +158,12 @@ header a.contact {
 
 /* Start Landing */
 .swiper-slide {
-    padding: 200px 100px;
+    padding:100px 100px 50px;
     background-position: center;
     background-size: cover;
     position: relative;
     text-align: center;
+    min-height: 200px;
 }
 .slide1 {
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(../Images/modele1/one2.jpg);
@@ -212,6 +213,9 @@ header a.contact {
 }
 .swiper-button-next:after, .swiper-button-prev:after {
     color: #fff;
+    top: 60%;
+    position: absolute;
+    transform: translateY(-50%);
 }
 @media (max-width:768px) {
     .swiper-slide {
@@ -239,7 +243,7 @@ header a.contact {
     color: var(--main-color);
     font-size: 21px;
 }
-.phones > div{
+.phones > a{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -249,9 +253,12 @@ header a.contact {
     font-weight: bold;
     direction: ltr;
 }
-.phones > div .phone-icon{
+.phones > a .phone-icon{
     color: #008000;
     font-size: 27px;
+}
+.phones > a p{
+    color: #000;
 }
 .pagefacebook{
     padding: 20px;
