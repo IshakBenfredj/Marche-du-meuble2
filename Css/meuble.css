@@ -178,12 +178,13 @@ header a.contact {
     word-spacing: 3px;
     line-height: 2;
     margin: 0;
+    font-size: 29px;
 }
 .swiper-slide h1 span{
     color: var(--main-color);
 }
 .swiper-slide h3{
-    font-size: 22px;
+    font-size: 23px;
     color: #fff;
     margin: 35px 0 50px;
     word-spacing: 3px;
@@ -220,7 +221,7 @@ header a.contact {
         font-size: 25px;
         }
     .swiper-slide h3 {
-        font-size: 20px;
+        font-size: 22px;
         margin: 30px 0 50px;
     }
 }
